@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4">
+  <Item class="Workspace" referent="RBX0">
+    <Properties>
+      <string name="Name">Workspace</string>
+    </Properties>
+
+    <!-- Baseplate -->
+    <Item class="Part" referent="RBX1">
+      <Properties>
+        <CoordinateFrame name="CFrame">
+          <X>0</X><Y>0</Y><Z>0</Z>
+          <R00>1</R00><R01>0</R01><R02>0</R02>
+          <R10>0</R10><R11>1</R11><R12>0</R12>
+          <R20>0</R20><R21>0</R21><R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Anchored">true</bool>
+        <string name="Name">Baseplate</string>
+        <Vector3 name="Size">
+          <X>512</X><Y>1</Y><Z>512</Z>
+        </Vector3>
+      </Properties>
+    </Item>
+
+    <!-- Spawn point -->
+    <Item class="SpawnLocation" referent="RBX2">
+      <Properties>
+        <CoordinateFrame name="CFrame">
+          <X>0</X><Y>5</Y><Z>0</Z>
+          <R00>1</R00><R01>0</R01><R02>0</R02>
+          <R10>0</R10><R11>1</R11><R12>0</R12>
+          <R20>0</R20><R21>0</R21><R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Anchored">true</bool>
+        <string name="Name">SpawnLocation</string>
+        <Vector3 name="Size">
+          <X>6</X><Y>1</Y><Z>6</Z>
+        </Vector3>
+      </Properties>
+    </Item>
+
+    <!-- Pohon (batang + daun) -->
+    <Item class="Part" referent="RBX3">
+      <Properties>
+        <CoordinateFrame name="CFrame">
+          <X>20</X><Y>5</Y><Z>20</Z>
+          <R00>1</R00><R01>0</R01><R02>0</R02>
+          <R10>0</R10><R11>1</R11><R12>0</R12>
+          <R20>0</R20><R21>0</R21><R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Anchored">true</bool>
+        <string name="Name">TreeTrunk</string>
+        <Vector3 name="Size">
+          <X>2</X><Y>10</Y><Z>2</Z>
+        </Vector3>
+      </Properties>
+    </Item>
+
+    <Item class="Part" referent="RBX4">
+      <Properties>
+        <CoordinateFrame name="CFrame">
+          <X>20</X><Y>15</Y><Z>20</Z>
+          <R00>1</R00><R01>0</R01><R02>0</R02>
+          <R10>0</R10><R11>1</R11><R12>0</R12>
+          <R20>0</R20><R21>0</R21><R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Anchored">true</bool>
+        <string name="Name">TreeLeaves</string>
+        <Vector3 name="Size">
+          <X>8</X><Y>8</Y><Z>8</Z>
+        </Vector3>
+      </Properties>
+    </Item>
+
+    <!-- Rumah kecil -->
+    <Item class="Part" referent="RBX5">
+      <Properties>
+        <CoordinateFrame name="CFrame">
+          <X>-20</X><Y>5</Y><Z>0</Z>
+          <R00>1</R00><R01>0</R01><R02>0</R02>
+          <R10>0</R10><R11>1</R11><R12>0</R12>
+          <R20>0</R20><R21>0</R21><R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Anchored">true</bool>
+        <string name="Name">HouseBase</string>
+        <Vector3 name="Size">
+          <X>20</X><Y>10</Y><Z>20</Z>
+        </Vector3>
+      </Properties>
+    </Item>
+
+    <Item class="Part" referent="RBX6">
+      <Properties>
+        <CoordinateFrame name="CFrame">
+          <X>-20</X><Y>15</Y><Z>0</Z>
+          <R00>1</R00><R01>0</R01><R02>0</R02>
+          <R10>0</R10><R11>1</R11><R12>0</R12>
+          <R20>0</R20><R21>0</R21><R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Anchored">true</bool>
+        <string name="Name">HouseRoof</string>
+        <Vector3 name="Size">
+          <X>22</X><Y>5</Y><Z>22</Z>
+        </Vector3>
+      </Properties>
+    </Item>
+
+  </Item>
+
+  <Item class="Players" referent="RBX7"/>
+  <Item class="Lighting" referent="RBX8"/>
+  <Item class="ReplicatedFirst" referent="RBX9"/>
+  <Item class="ReplicatedStorage" referent="RBX10"/>
+  <Item class="StarterPack" referent="RBX11"/>
+  <Item class="StarterPlayer" referent="RBX12"/>
+  <Item class="SoundService" referent="RBX13"/>
+  <Item class="Chat" referent="RBX14"/>
+  <Item class="LocalizationService" referent="RBX15"/>
+  <Item class="TestService" referent="RBX16"/>
+</roblox>
