@@ -17,7 +17,7 @@
         <bool name="Anchored">true</bool>
         <string name="Name">Baseplate</string>
         <Vector3 name="Size">
-          <X>512</X><Y>1</Y><Z>512</Z>
+          <X>200</X><Y>1</Y><Z>200</Z>
         </Vector3>
       </Properties>
     </Item>
@@ -26,7 +26,7 @@
     <Item class="SpawnLocation" referent="RBX2">
       <Properties>
         <CoordinateFrame name="CFrame">
-          <X>0</X><Y>5</Y><Z>0</Z>
+          <X>0</X><Y>5</Y><Z>-90</Z>
           <R00>1</R00><R01>0</R01><R02>0</R02>
           <R10>0</R10><R11>1</R11><R12>0</R12>
           <R20>0</R20><R21>0</R21><R22>1</R22>
@@ -39,19 +39,19 @@
       </Properties>
     </Item>
 
-    <!-- Pohon (batang + daun) -->
+    <!-- Platform Parkour -->
     <Item class="Part" referent="RBX3">
       <Properties>
         <CoordinateFrame name="CFrame">
-          <X>20</X><Y>5</Y><Z>20</Z>
+          <X>0</X><Y>5</Y><Z>-70</Z>
           <R00>1</R00><R01>0</R01><R02>0</R02>
           <R10>0</R10><R11>1</R11><R12>0</R12>
           <R20>0</R20><R21>0</R21><R22>1</R22>
         </CoordinateFrame>
         <bool name="Anchored">true</bool>
-        <string name="Name">TreeTrunk</string>
+        <string name="Name">Platform1</string>
         <Vector3 name="Size">
-          <X>2</X><Y>10</Y><Z>2</Z>
+          <X>10</X><Y>1</Y><Z>10</Z>
         </Vector3>
       </Properties>
     </Item>
@@ -59,32 +59,31 @@
     <Item class="Part" referent="RBX4">
       <Properties>
         <CoordinateFrame name="CFrame">
-          <X>20</X><Y>15</Y><Z>20</Z>
+          <X>15</X><Y>8</Y><Z>-50</Z>
           <R00>1</R00><R01>0</R01><R02>0</R02>
           <R10>0</R10><R11>1</R11><R12>0</R12>
           <R20>0</R20><R21>0</R21><R22>1</R22>
         </CoordinateFrame>
         <bool name="Anchored">true</bool>
-        <string name="Name">TreeLeaves</string>
+        <string name="Name">Platform2</string>
         <Vector3 name="Size">
-          <X>8</X><Y>8</Y><Z>8</Z>
+          <X>8</X><Y>1</Y><Z>8</Z>
         </Vector3>
       </Properties>
     </Item>
 
-    <!-- Rumah kecil -->
     <Item class="Part" referent="RBX5">
       <Properties>
         <CoordinateFrame name="CFrame">
-          <X>-20</X><Y>5</Y><Z>0</Z>
+          <X>-10</X><Y>12</Y><Z>-30</Z>
           <R00>1</R00><R01>0</R01><R02>0</R02>
           <R10>0</R10><R11>1</R11><R12>0</R12>
           <R20>0</R20><R21>0</R21><R22>1</R22>
         </CoordinateFrame>
         <bool name="Anchored">true</bool>
-        <string name="Name">HouseBase</string>
+        <string name="Name">Platform3</string>
         <Vector3 name="Size">
-          <X>20</X><Y>10</Y><Z>20</Z>
+          <X>8</X><Y>1</Y><Z>8</Z>
         </Vector3>
       </Properties>
     </Item>
@@ -92,29 +91,46 @@
     <Item class="Part" referent="RBX6">
       <Properties>
         <CoordinateFrame name="CFrame">
-          <X>-20</X><Y>15</Y><Z>0</Z>
+          <X>0</X><Y>16</Y><Z>-10</Z>
           <R00>1</R00><R01>0</R01><R02>0</R02>
           <R10>0</R10><R11>1</R11><R12>0</R12>
           <R20>0</R20><R21>0</R21><R22>1</R22>
         </CoordinateFrame>
         <bool name="Anchored">true</bool>
-        <string name="Name">HouseRoof</string>
+        <string name="Name">Platform4</string>
         <Vector3 name="Size">
-          <X>22</X><Y>5</Y><Z>22</Z>
+          <X>8</X><Y>1</Y><Z>8</Z>
+        </Vector3>
+      </Properties>
+    </Item>
+
+    <!-- Finish Platform -->
+    <Item class="Part" referent="RBX7">
+      <Properties>
+        <CoordinateFrame name="CFrame">
+          <X>0</X><Y>20</Y><Z>20</Z>
+          <R00>1</R00><R01>0</R01><R02>0</R02>
+          <R10>0</R10><R11>1</R11><R12>0</R12>
+          <R20>0</R20><R21>0</R21><R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Anchored">true</bool>
+        <string name="Name">Finish</string>
+        <Vector3 name="Size">
+          <X>12</X><Y>1</Y><Z>12</Z>
         </Vector3>
       </Properties>
     </Item>
 
   </Item>
 
-  <Item class="Players" referent="RBX7"/>
-  <Item class="Lighting" referent="RBX8"/>
-  <Item class="ReplicatedFirst" referent="RBX9"/>
-  <Item class="ReplicatedStorage" referent="RBX10"/>
-  <Item class="StarterPack" referent="RBX11"/>
-  <Item class="StarterPlayer" referent="RBX12"/>
-  <Item class="SoundService" referent="RBX13"/>
-  <Item class="Chat" referent="RBX14"/>
-  <Item class="LocalizationService" referent="RBX15"/>
-  <Item class="TestService" referent="RBX16"/>
+  <Item class="Players" referent="RBX8"/>
+  <Item class="Lighting" referent="RBX9"/>
+  <Item class="ReplicatedFirst" referent="RBX10"/>
+  <Item class="ReplicatedStorage" referent="RBX11"/>
+  <Item class="StarterPack" referent="RBX12"/>
+  <Item class="StarterPlayer" referent="RBX13"/>
+  <Item class="SoundService" referent="RBX14"/>
+  <Item class="Chat" referent="RBX15"/>
+  <Item class="LocalizationService" referent="RBX16"/>
+  <Item class="TestService" referent="RBX17"/>
 </roblox>
